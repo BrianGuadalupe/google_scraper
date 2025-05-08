@@ -8,7 +8,7 @@ Una aplicación visual hecha con **Streamlit** y **Selenium** para buscar negoci
 
 - Interfaz intuitiva
 - Búsqueda en Google Maps
-- Scraping de nombre, dirección y teléfono de negocios
+- Scraping de nombre, dirección, teléfono y web de negocios
 - Resultados mostrados como tarjetas visuales
 - Opción para descargar en CSV
 
