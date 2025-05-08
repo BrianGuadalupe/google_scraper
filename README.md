@@ -1,6 +1,6 @@
 # 📍 Google Maps Business Scraper
 
-Una aplicación visual hecha con **Streamlit** y **Selenium** para buscar negocios en Google Maps y extraer su información (nombre, dirección y teléfono) de forma automática y visual.
+Una aplicación visual hecha con **Streamlit** y **Selenium** para buscar negocios en Google Maps y extraer su información (nombre, dirección, teléfono y web) de forma automática y visual.
 
 ---
 
