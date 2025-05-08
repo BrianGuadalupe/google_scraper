@@ -129,10 +129,17 @@ def scroll_y_extraer(driver):
         except:
             direccion = "No disponible"
 
+        try:
+            enlace_web = driver.find_element(By.XPATH, '//a[contains(@class, "CsEnBe") and contains(@href, "http")]')
+            web = enlace_web.get_attribute("href")
+        except:
+            web = "No disponible"
+
         resultados.append({
             "Nombre": nombre,
             "Teléfono": telefono,
-            "Dirección": direccion
+            "Dirección": direccion,
+            "Web": web
         })
 
     return resultados
@@ -175,6 +182,7 @@ if st.button("Buscar"):
                         <div class="titulo">{row['Nombre']}</div>
                         <div class="detalle">📍 {row['Dirección']}</div>
                         <div class="detalle">📞 {row['Teléfono']}</div>
+                        <div class="detalle">🌐 <a href="{row['Web']}" target="_blank">{row['Web']}</a></div>
                     </div>
                 """, unsafe_allow_html=True)
 
