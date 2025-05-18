@@ -50,10 +50,14 @@ streamlit run app.py
 ## 📁 Project Structure
 
 google_scraper/
-├── app.py               # Main Streamlit application
+
+├── app.py             # Main Streamlit application
+
 ├── .gitignore
-├── requirements.txt     # Required dependencies
-└── README.md            # This file
+
+├── requirements.txt   # Required dependencies
+
+└── README.md          # This file
 
 ---
 
