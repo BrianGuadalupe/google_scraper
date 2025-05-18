@@ -1,89 +1,76 @@
 # 📍 Google Maps Business Scraper
 
-Una aplicación visual hecha con **Streamlit** y **Selenium** para buscar negocios en Google Maps y extraer su información (nombre, dirección, teléfono y web) de forma automática y visual.
+A visual app built with **Streamlit** and **Selenium** to search for businesses on Google Maps and automatically extract their information (name, address, phone number, and website) in a visual and user-friendly way.
 
 ---
 
-## 🚀 Características
+## 🚀 Features
 
-- Interfaz intuitiva
-- Búsqueda en Google Maps
-- Scraping de nombre, dirección, teléfono y web de negocios
-- Resultados mostrados como tarjetas visuales
-- Opción para descargar en CSV
+- Intuitive interface
+- Google Maps search
+- Scrapes business name, address, phone number, and website
+- Results displayed as visual cards
+- Option to download as CSV
 
 ---
 
-## 📷 Captura de la interfaz
+## 📷 Interface Screenshot
 
 ![image](https://github.com/user-attachments/assets/6da676ab-fb4a-4df6-9838-107738f14aed)
 
 ---
 
-## ⚙️ Requisitos
+## ⚙️ Requirements
 
 - Python 3.8+
 - Google Chrome
-- Dependencias:
+- Dependencies:
 
-```bash
 pip install streamlit selenium webdriver-manager pandas
-```
 
 ---
 
-## ▶️ Cómo usar
+## ▶️ How to Use
 
-1. Clona el repositorio:
+1. Clone the repository:
 
-```bash
 git clone https://github.com/BrianGuadalupe/google_scraper.git
 cd google_scraper
-```
 
-2. Instala los paquetes necesarios:
+2. Install the required packages:
 
-```bash
 pip install -r requirements.txt
-```
 
-3. Ejecuta la app:
+3. Run the app:
 
-```bash
 streamlit run app.py
-```
 
 ---
 
-## 📁 Estructura del proyecto
+## 📁 Project Structure
 
-```
 google_scraper/
-├── app.py               # Aplicación principal Streamlit
+├── app.py               # Main Streamlit application
 ├── .gitignore
-├── requirements.txt     # Dependencias necesarias
-└── README.md            # Este archivo
-```
+├── requirements.txt     # Required dependencies
+└── README.md            # This file
 
 ---
 
-## 📦 Generar `requirements.txt`
+## 📦 Generate `requirements.txt`
 
-Si no lo tienes aún, puedes generarlo con:
+If you don’t have it yet, you can generate it with:
 
-```bash
 pip freeze > requirements.txt
-```
 
 ---
 
-## 📄 Licencia
+## 📄 License
 
-Este proyecto está bajo la licencia MIT. Puedes usarlo, modificarlo y compartirlo libremente.
+This project is licensed under the MIT License. Feel free to use, modify, and share it.
 
 ---
 
-## ✨ Autor
+## ✨ Author
 
-Creado con ❤️ por [Brian Guadalupe](https://github.com/BrianGuadalupe)
-
+Created with ❤️ by Brian Guadalupe (https://github.com/BrianGuadalupe)
