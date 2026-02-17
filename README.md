@@ -51,13 +51,17 @@ streamlit run app.py
 
 google_scraper/
 
-├── app.py             # Main Streamlit application
+├── app.py                   # Main Streamlit application
+
+├── scraper_google_maps.py   # Standalone CLI scraper
+
+├── maps_utils.py            # Shared driver and cookie helpers
 
 ├── .gitignore
 
-├── requirements.txt   # Required dependencies
+├── requirements.txt         # Required dependencies
 
-└── README.md          # This file
+└── README.md                # This file
 
 ---
 
@@ -66,6 +70,19 @@ google_scraper/
 If you don’t have it yet, you can generate it with:
 
 pip freeze > requirements.txt
+
+---
+
+## ⚠️ Legal Disclaimer
+
+This project is intended **exclusively for educational and research purposes**.
+
+- Using this tool may violate [Google Maps Terms of Service](https://cloud.google.com/maps-platform/terms), which prohibit automated scraping of their platform.
+- The author is not responsible for any misuse of this code by third parties.
+- **Do not use this tool for commercial purposes or large-scale data collection.**
+- For production use, use the official [Google Maps Platform API](https://developers.google.com/maps), which offers a free tier of $200/month in credits.
+
+By using this repository you accept full responsibility for how you use it.
 
 ---
 
